@@ -1,0 +1,29 @@
+.principal
+{
+    background-color: aquamarine;
+   /*
+    width: 600px;
+    height: 600px;
+    */
+    display: flex; /*esto hace que las caja se ajusten a la pagina*/
+    flex-direction: row;
+    flex-wrap: wrap-reverse; /*hace repetar el tamaño que es  dado por el row*/
+}
+.contenedor{
+    display: flex; /*su tamaño ya no es flexible*/
+    flex-direction: column;
+
+
+}
+.caja{
+    background-color: chocolate;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.caja1{
+    background-color: cornflowerblue;
+    margin: 5px;
+    height: 200px;
+}
